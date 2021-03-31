@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio site which is responsive and created developed sing HTML, SASS and JS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahrukhitsme/Portfolio-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahrukhitsme/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/shahrukhitsme/Portfolio-Site#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

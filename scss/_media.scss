@@ -1,0 +1,272 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+  #header-home {
+    height: 50rem;
+
+    .header-content {
+      padding-top: 5rem;
+
+      h1 {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  #home-b .skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #work {
+    &-a {
+      .work-info {
+        grid-template-columns: 1fr;
+        border-bottom: 1px solid $main-color;
+        padding-bottom: 20px;
+
+        .container{
+          grid-template-areas:
+                'company'
+                'timeperiod'
+                'experiencecontent';
+        }
+
+        .company {
+          font-size: 1.2rem;
+          text-align: center;
+          padding-bottom: 10px;
+          border-bottom: 1px dashed $main-color;
+        }
+
+        .time-period {
+          font-size: 1.2rem;
+          text-align: center;
+          padding-bottom: 10px;
+          border-bottom: 1px dashed $main-color;
+        }
+
+        .content {
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+
+      .work-info:last-child {
+        border: none;
+      }
+    }
+  }
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      padding: 1rem;
+    }
+  }
+
+  #header {
+    &-home {
+      height: 100vh;
+      border-bottom: 3px solid $main-color;
+      background-position: 20% 30%;
+
+      .header-content {
+        padding-top: 3.4rem;
+        line-height: 2;
+
+      h1 {
+        margin: 1rem 0;
+        font-size: 1rem;
+      }
+      }
+    }
+
+    &-inner {
+      height: 10rem;
+    }
+  }
+
+  // Stack Grid Columns
+  #home-a .specials,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  #home-b .skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // Home
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
+    }
+  }
+
+  // About
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          'bioimage'
+          'bio'
+          'aw1'
+          'aw2'
+          'aw3';
+      }
+    }
+
+    &-c {
+      .testimonials {
+        grid-template-columns: 1fr;
+
+        div {
+          border-bottom: 1px solid $main-color;
+          margin-top: 10px;
+          &:last-child {
+            border: none;
+          }
+        }
+
+      }
+    }
+  }
+
+  // Contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          'name'
+          'subject'
+          'email'
+          'phone'
+          'message';
+      }
+    }
+
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px #555 solid;
+
+        &:last-child {
+          border: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &-c {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  // Footer
+  #main-footer {
+    height: 7rem;
+
+    .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem;
+    }
+  }
+}
+
+@media (max-width:725px){
+  .modal {
+    position: fixed;
+    z-index: 2;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    background: $light-color;
+    border-radius: 30px;
+
+    .container {
+      grid-gap: 1rem;
+      padding: 1em;
+      font-size: 1rem;
+
+      #modalButtons {
+          width:90%;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 20%;
+
+          a{
+            margin: 5px;
+            align-self: center;
+          }
+      }
+  }
+
+    .btn {
+        padding: 1rem;
+        background: $dark-color;
+        color: $light-color;
+        border-radius: 10px;
+        width: fit-content;
+        transition: all 0.1s ease-in;
+    }
+
+    .btn:hover {
+        background: $main-color;
+        color: $dark-color;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #home-b .skills {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Landscape
+@media (max-height: 580px) {
+  #header-home {
+    .header-content {
+      padding-top: 3rem;
+    }
+  }
+}
+
+@media (max-height: 330px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}

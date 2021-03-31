@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c1fd77a88f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Train+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <h2 id="logo">Shahrukh Uddin</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section A: Contact Form -->
+  <section id="contact-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Here is how you can reach me</p>
+      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" class="text-input name-input" placeholder="Name" name="name" />
+          <input type="text" class="text-input subject-input" placeholder="Subject" name="subject" />
+          <input type="email" class="text-input email-input" placeholder="Email Address" name="email" />
+          <input type="text" class="text-input phone-input" placeholder="Phone Number" name="phone" />
+          <textarea class="text-input message-input" placeholder="Enter Message" name="message"></textarea>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-dark">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Section B: Contact Info -->
+  <section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-envelope fa-2x"></i>
+          <h3>Email</h3>
+          <p>shahrukh.19feb@gmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Phone</h3>
+          <p>(+91) 8420530198</p>
+        </div>
+        <div>
+          <i class="fas fa-address-card fa-2x"></i>
+          <h3>Location</h3>
+          <p>Bengaluru, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section C: Tagline -->
+  <section id="contact-c" class="bg-main py-4">
+    <div class="container">
+      <h1>Awaiting Your Response</h1>
+    </div>
+  </section>
+
+  <div id="floatingButton" class="float">
+    <a href="#" id="scrollToTop"><i class="fas fa-arrow-circle-up fa-3x"></i></button>
+  </div>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2021. All Rights Reserved</p>
+      <div class="social">
+        <a href="https://github.com/shahrukhitsme" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shahrukh-uddin-5b720a56/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/__picture__patch/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c1fd77a88f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Train+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>My Work</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <h2 id="logo">Shahrukh Uddin</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html" class="current">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section A: Work Experience -->
+  <section id="work-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="bottom-line"></div>
+      <p class="lead" id="workEx">
+        Total Work Experience:
+      </p>
+      <div class="work-info">
+        <img src="img/companies/cognizant.jpeg" alt="" class="bio-image" />
+        <div class="bio bg-light" style="border-left: 3px solid #2c2cf1">
+          <div class="container">
+            <div class="company">Cognizant</div>
+            <div class="time-period">Feb, 2018 - October, 2018 (8 months)</div>
+            <div class="content">
+              <ul>
+                <li>Created an e-commerce site during training using ASP.NET and SQL</li>
+                <li>Worked on data analytics tool, Qlikview</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="work-info">
+        <img src="img/companies/hyland.jpeg" alt="" class="bio-image" />
+        <div class="bio bg-light" style="border-left: 3px solid #209c01">
+          <div class="container">
+            <div class="company">Hyland Software Private Limited</div>
+            <div class="time-period">October, 2018 - October, 2020 (2 years)</div>
+            <div class="content">
+              <ul>
+                <li>Projects that I worked on demanded in depth knowledge of JavaScript, Java, C++, Python, REST API,
+                  SQL Data structures and Algorithms.</li>
+                <li>Successfully released 7 projects till now with more than expected results.</li>
+                <li>Written efficient and adaptable methods, which could parse JSON data according to user
+                  configurations.</li>
+                <li>Responsible for creating CI/CD pipelines in Jenkins for all the projects.</li>
+                <li>Learnt from scratch and delivered web and desktop based automations of a project in a single
+                  quarter, when the requirement was to complete one per quarter.</li>
+                <li>Always trained myself with latest technologies like AngularJS, Google firebase, REST APIs, Docker,
+                  Git, BackboneJS and selenium to keep myself up to date with the requirements.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="work-info">
+        <img src="img/companies/juspay.png" alt="" class="bio-image" />
+        <div class="bio bg-light" style="border-left: 3px solid #369af1">
+          <div class="container">
+            <div class="company">Juspay Technologies Private Limited</div>
+            <div class="time-period">October, 2020 - Current</div>
+            <div class="content">
+              <ul>
+                <li>Worked on Juspay's frontend framework, Presto, which powers the User interface of Payment page of
+                  many merchants for all platforms.</li>
+                <li>Quickly learned Haskell, which is a functional programming language, and completed numerous features
+                  which required skills such as Haskell, Javascript and Java.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B: Gallery -->
+  <section id="work-b" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Personal Projects</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">
+        Check out some of my projects
+      </p>
+      <div class="items">
+        <div class="item" onclick="openModal('ToDo List')">
+          <div class="item-image">
+            <img src="img/items/todo.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">ReactJS</p>
+              <h2 class="item-text-title">ToDo List</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Pig Dice Game')">
+          <div class="item-image">
+            <img src="img/items/pigdicegame.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Pig Dice Game</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('DS & Algo')">
+          <div class="item-image">
+            <img src="img/items/dsalgo.jpeg" alt="" />
+          </div>
+          <div class=" item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">Java</p>
+              <h2 class="item-text-title">DS & Algo</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Automation')">
+          <div class="item-image">
+            <img src="img/items/automation.jpeg" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">Selenium with JS</p>
+              <h2 class="item-text-title">Automation</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('NewsGrid')">
+          <div class="item-image">
+            <img src="img/items/newsgrid.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">NewsGrid</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Budget App')">
+          <div class="item-image">
+            <img src="img/items/budgetapp.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Budget App</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Portfolio')">
+          <div class="item-image">
+            <img src="img/items/portfolio.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Portfolio</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Color Guessing Game')">
+          <div class="item-image">
+            <img src="img/items/colorguessinggame.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Color Guessing Game</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Dynamic UI from data with pagination')">
+          <div class="item-image">
+            <img src="img/items/whitepanda.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">React and API Calls</p>
+              <h2 class="item-text-title">Dynamic UI from data with pagination</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Portfolio (Old)')">
+          <div class="item-image">
+            <img src="img/items/oldPortfolio.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Portfolio (Old)</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('EdgeLedger')">
+          <div class="item-image">
+            <img src="img/items/edgeledger.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">HTML5 & CSS3</p>
+              <h2 class="item-text-title">EdgeLedger</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item" onclick="openModal('Monopoly Game Manager')">
+          <div class="item-image">
+            <img src="img/items/monopoly.png" alt="" />
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category">VanillaJS</p>
+              <h2 class="item-text-title">Monopoly Game Manager</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="floatingButton" class="float">
+    <a href="#" id="scrollToTop"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="container">
+      <h2 id="title">ToDo List</h2>
+      <p class="description" id="modalDescription"></p>
+      <br>
+      <div id="modalButtons">
+        <a onclick="visitSite(event)" id="siteLink" class="btn">Visit the Site</a>
+        <a onclick="visitSite(event)" id="gitLink" class="btn">Check out the repository</a>
+        <a id="cancelBtn" onclick="closeModal(event)" class="btn">Cancel</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2021. All Rights Reserved</p>
+      <div class="social">
+        <a href="https://github.com/shahrukhitsme" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shahrukh-uddin-5b720a56/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/__picture__patch/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
