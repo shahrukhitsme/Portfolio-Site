@@ -1,7 +1,7 @@
 let projectDetails = [
   {
     "title": "TODO LIST",
-    "description" : "A single page todo list manager, created using React and Google firebase. It authenticates the user and allows the user to save personal todos.",
+    "description" : "A single page todo list manager, created using React and Google firebase. It authenticates the user and allows the user to save personal todos. Currently only compatible with large screens.",
     "isHosted" : "true",
     "siteLink" : "https://todo-list-4a0c6.web.app",
     "gitLink" : "https://github.com/shahrukhitsme/Todo-List"
