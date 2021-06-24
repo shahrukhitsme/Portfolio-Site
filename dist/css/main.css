@@ -204,7 +204,8 @@ img {
   width: wrap-content;
   height: 70px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
 
 #main-nav {
   display: flex;
@@ -232,7 +233,7 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 15%; }
+    padding-top: 3%; }
     #header-home .header-content .profile {
       width: 200px;
       height: auto;
@@ -306,8 +307,9 @@ img {
       background: #f4f4f4; }
   #work-a .work-info .company {
     grid-area: company;
-    font-size: 1.2rem;
-    text-align: left; }
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 7px; }
   #work-a .work-info .time-period {
     grid-area: timeperiod;
     font-size: 1.2rem;
@@ -541,7 +543,6 @@ img {
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 100vh;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
